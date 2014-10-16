@@ -132,7 +132,7 @@ function afterPjax() {
   // Lazy Loading Disqus
   // http://jsfiddle.net/dragoncrew/SHGwe/1/
   var ds_loaded = false,
-      top = $('#disqus_thread').offset().top;
+      top = $("#disqus_thread").offset().top;
       identifier = $('#post__title').data('identifier');
   window.disqus_shortname = 'sailspark';
   window.disqus_developer = 1;
